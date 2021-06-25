@@ -16,7 +16,6 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_output_directory: storybook/storybook-static
-  install_dependencies_command: yarn install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
